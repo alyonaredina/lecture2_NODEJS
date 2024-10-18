@@ -1,0 +1,43 @@
+{
+    
+
+    "arrowParens": "avoid",
+    "bracketSpacing": true,
+    "endOfLine": "lf",
+    "htmlWhitespaceSensitivity": "css",
+    "insertPragma": false,
+    "jsxBracketSameLine": false,
+    "jsxSingleQuote": false,
+    "printWidth": 80,
+    "proseWrap": "preserve",
+    "quoteProps": "as-needed",
+    "requirePragma": false,
+    "semi": false, 
+    "singleQuote": true,
+    "tabWidth": 4,
+    "trailingComma": "es5",
+    "useTabs": false,
+    "vueIndentScriptAndStyle": true,
+    "embeddedLanguageFormatting": "auto",
+
+   
+    "editor.formatOnSave": false, 
+    "editor.formatOnPaste": false, 
+    "editor.codeActionsOnSave": [], 
+    "editor.defaultFormatter": null,    
+    "prettier.enable": true, 
+    "eslint.enable": true,    
+    "eslint.format.enable": true, 
+    "eslint.run": "onType", 
+    "eslint.probe": [ 
+        "javascript"
+    ],
+    "eslint.rules.customizations": [       
+        {"rule": "prettier/prettier", "severity": "info"}
+    ],
+    "[javascript]": {        
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    }
+}
